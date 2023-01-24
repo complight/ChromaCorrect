@@ -27,7 +27,6 @@ Clone the entire repository and navigate to the root directory.
 
 ```shell
 git clone git@github.com:complight/ChromaCorrect.git
-cd learned_prescription
 ```
 
 ## Install the required dependencies
