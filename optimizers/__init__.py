@@ -200,51 +200,24 @@ class learned_prescription_optimizer():
 
         Returns
         -------
-        result                      : torch.tensor
-                                      Image blurred by convolution of PSF kernel on LMS space
+        convoled_lms                : torch.tensor
+                                     Image blurred by convolution of PSF kernel on LMS space
         """
-        if kernel_type == 'LMS':   
-            result = torch.zeros_like(self.kernel).to(self.device)
-            convolved_lms = torch.zeros_like(input_image).to(self.device)    
-            for i in range(self.kernel.shape[0]):                     
-                kernel_response_color_primary = self.kernel[i,:,:,:].to(self.device)                 
-                image = odak.learn.tools.zero_pad(input_image[:, :, i])
-                for j in range(3):
-                    kernel = odak.learn.tools.zero_pad(kernel_response_color_primary[:, :, j])
-                    fft_input_image = torch.fft.fftshift(torch.fft.fft2(image))
-                    fft_kernel = torch.fft.fftshift(torch.fft.fft2(kernel))
-                    U = (fft_input_image * fft_kernel).to(self.device) 
-                    result[i, :, :, j] += odak.learn.tools.crop_center(torch.abs(torch.fft.ifftshift(torch.fft.ifft2(U))))
-            convolved_lms[:,:,0] = result[0,:,:,0] + result[1,:,:,0] + result[2,:,:,0]
-            convolved_lms[:,:,1] = result[0,:,:,1] + result[1,:,:,1] + result[2,:,:,1]
-            convolved_lms[:,:,2] = result[0,:,:,2] + result[1,:,:,2] + result[2,:,:,2]
-            return convolved_lms
-        elif kernel_type == 'camera':
-            result = torch.zeros_like(self.kernel).to(self.device)
-            convolved_camera = torch.zeros_like(input_image).to(self.device)    
-            for i in range(self.kernel.shape[0]):                     
-                kernel_response_color_primary = self.kernel[i,:,:,:].to(self.device)                 
-                image = odak.learn.tools.zero_pad(input_image[:, :, i])
-                for j in range(3):
-                    kernel = odak.learn.tools.zero_pad(kernel_response_color_primary[:, :, j])
-                    fft_input_image = torch.fft.fftshift(torch.fft.fft2(image))
-                    fft_kernel = torch.fft.fftshift(torch.fft.fft2(kernel))
-                    U = (fft_input_image * fft_kernel).to(self.device) 
-                    result[i, :, :, j] += odak.learn.tools.crop_center(torch.abs(torch.fft.ifftshift(torch.fft.ifft2(U))))
-            convolved_camera[:,:,0] = result[0,:,:,0] + result[1,:,:,0] + result[2,:,:,0]
-            convolved_camera[:,:,1] = result[0,:,:,1] + result[1,:,:,1] + result[2,:,:,1]
-            convolved_camera[:,:,2] = result[0,:,:,2] + result[1,:,:,2] + result[2,:,:,2]
-            return convolved_camera
-        else: #RGB naive case
-            result = torch.zeros_like(input_image)
+        result = torch.zeros_like(self.kernel).to(self.device)
+        convolved_lms = torch.zeros_like(input_image).to(self.device)    
+        for i in range(self.kernel.shape[0]):                     
+            kernel_response_color_primary = self.kernel[i,:,:,:].to(self.device)                 
+            image = odak.learn.tools.zero_pad(input_image[:, :, i])
             for j in range(3):
-                image = odak.learn.tools.zero_pad(input_image[:, :, j])
-                kernel = odak.learn.tools.zero_pad(self.kernel[0,:, :, j]).to(self.device)
+                kernel = odak.learn.tools.zero_pad(kernel_response_color_primary[:, :, j])
                 fft_input_image = torch.fft.fftshift(torch.fft.fft2(image))
                 fft_kernel = torch.fft.fftshift(torch.fft.fft2(kernel))
                 U = (fft_input_image * fft_kernel).to(self.device) 
-                result[:, :, j] = odak.learn.tools.crop_center(torch.abs(torch.fft.ifftshift(torch.fft.ifft2(U))))
-            return result     
+                result[i, :, :, j] += odak.learn.tools.crop_center(torch.abs(torch.fft.ifftshift(torch.fft.ifft2(U))))
+        convolved_lms[:,:,0] = result[0,:,:,0] + result[1,:,:,0] + result[2,:,:,0]
+        convolved_lms[:,:,1] = result[0,:,:,1] + result[1,:,:,1] + result[2,:,:,1]
+        convolved_lms[:,:,2] = result[0,:,:,2] + result[1,:,:,2] + result[2,:,:,2]
+        return convolved_lms 
     
 
     def stochastic_gradient_descent(self):
