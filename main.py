@@ -12,7 +12,6 @@ __title__ = 'Prescription corrected image generator'
 
 
 def main():
-    settings_filename = './settings/sample.txt'
     no_of_iterations = 100
     learning_rate=0.01
     filename = './dataset/parrot.png'
