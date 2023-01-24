@@ -26,7 +26,7 @@ This repository contains our implementation for learning prescriptions related t
 Clone the entire repository and navigate to the root directory.
 
 ```shell
-git clone --recurse-submodules git@github.com:complight/learned_prescription.git
+git clone git@github.com:complight/ChromaCorrect.git
 cd learned_prescription
 ```
 
