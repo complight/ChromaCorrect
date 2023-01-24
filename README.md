@@ -21,7 +21,7 @@ for users with vision impairments.
 
 ## Description
 
-This repository contains our implementation for learning prescriptions related to refractive vision problems (myopia, presbyopia, astigmatism etc.).
+This repository contains our implementation for learning prescriptions related to refractive vision problems (myopia, hyperopia).
 
 Clone the entire repository and navigate to the root directory.
 
