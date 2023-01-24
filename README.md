@@ -53,7 +53,7 @@ python3 main.py --help
 ```
 ## Dataset 
 
-You can use images from both **Dataset** and **Dataset_D2K** for your experiments. 
+You can use images from  **Dataset** for your experiments. 
 
 Dataset : Images are selected from combination of [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [CLL](https://complightlab.com/) datasets.
 
