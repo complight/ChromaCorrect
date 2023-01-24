@@ -20,6 +20,8 @@ def main():
     device_name = 'cpu'
     backlight = 'default'
     kernel_type = 'LMS'
+    prescription = 'myopia'
+    diopter = -2.00
     parser = argparse.ArgumentParser(description=__title__)
     parser.add_argument(
                         '--iterations',
@@ -56,6 +58,19 @@ def main():
                         type=str,
                         help='Backlight color primaries initialisation method. Default is {}'.format(backlight)
                        )
+
+    parser.add_argument(
+                        '--prescription',
+                        type=str,
+                        help='The type of refractive error. Default is {}'.format(prescription)
+                       )
+
+    parser.add_argument(
+                        '--diopter',
+                        type=float,
+                        help='Unit used to measure the correction. Default is {}'.format(diopter)
+                       )
+    
     args = parser.parse_args()
     if not isinstance(args.iterations, type(None)):
         no_of_iterations = args.iterations
@@ -79,6 +94,8 @@ def main():
     print('Device: {}'.format(device))
     print('Directory: {}'.format(output_directory))
     print('Backlight primary: {}'.format(backlight))
+    print('prescription: {}'.format(prescription))
+    print('dipter: {}'.format(diopter))
     process(
             no_of_iterations=no_of_iterations,
             filename=filename,
@@ -110,8 +127,8 @@ def process(
                 0.0,     # Vertical Coma
                 0.0      # Horizontal Coma
             ],
-            spherical_power = -3.5,      # negative diopters => myopia, positive diopters => hyperopia
-            cylindrical_power=0,     # negative diopters => myopic astigmatism, positive diopters => hyperopic astigmatism
+            spherical_power = -3.5,    # negative diopters => myopia, positive diopters => hyperopia
+            cylindrical_power=0,       # negative diopters => myopic astigmatism, positive diopters => hyperopic astigmatism
             axis_angle=0,              # 0 to 180 degrees, refers to where on the cornea the astigmatism is located
             eye_pupil_diameter=6,
             psf_size_degrees=0.45   # upper bound of 2.285
