@@ -284,11 +284,5 @@ class learned_prescription_optimizer():
         odak.learn.tools.save_image('{}/cache_blurred_original.png'.format(self.directory), blurred_target, cmin=0., cmax=float(blurred_target.max()))
         target = (target - target.min()) / (target.max() - target.min())
         odak.learn.tools.save_image('{}/cache_target.png'.format(self.directory), target, cmin=0., cmax=float(self.target_image.max()))
-
-        rgb_chache = odak.learn.tools.load_image(('./output/cache_input_0050_rgb.png')).to(self.device).float()
-        rgb_simulated_in_4D = self.forward(rgb_chache,kernel_type=self.kernel_type)
-        odak.learn.tools.save_image('{}/cache_simulated_RGB_to_LMS.png'.format(self.directory, step),
-                                   (rgb_simulated_in_4D-rgb_simulated_in_4D.min())/(rgb_simulated_in_4D.max()-rgb_simulated_in_4D.min()), cmin=0., cmax=1.)
-        print('debug')
         
         return input_image
