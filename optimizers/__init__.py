@@ -247,7 +247,7 @@ class learned_prescription_optimizer():
             self.optimizer.step()
             description = "Stochastic Gradient Descent, loss:{:.4f}".format(loss.item())
             t.set_description(description)
-            if step % 10 == 0 or step == self.no_of_iterations - 1:
+            if step % 20 == 0 or step == self.no_of_iterations - 1:
                 odak.learn.tools.save_image('{}/cache_input_{:04d}.png'.format(self.directory, step),input_image, cmin=0., cmax=1.)        
                 simulated_normalized = (simulated_result-simulated_result.min()) / (simulated_result.max()- simulated_result.min())
                 odak.learn.tools.save_image('{}/cache_simulated_{:04d}.png'.format(self.directory, step),simulated_normalized, cmin=0., cmax=1.)
