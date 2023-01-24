@@ -55,7 +55,7 @@ python3 main.py --help
 
 You can use images from  **Dataset** for your experiments. 
 
-Images are selected from combination of [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [CLL](https://complightlab.com/) datasets.
+Images are selected from combination of [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), [CLL](https://complightlab.com/) and [Kodak](http://r0k.us/graphics/kodak/) datasets.
 
 ## Importing Display Backlight Data
 
