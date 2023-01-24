@@ -43,7 +43,7 @@ pip3 install -r requirements.txt
 Once you have the requirements successfully installed, you are ready to run the optimisation.
 
 ```shell
-python3 main.py --device cuda --filename dataset/parrot.png --directory sample --backlight read
+python3 main.py --device cuda --diopter -2.0 --filename dataset/parrot.png --directory sample --backlight read
 ```
 
 You can also adjust the parameters used in the optimization routine by passing arguments. To learn more about parameters:
