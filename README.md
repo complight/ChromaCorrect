@@ -21,7 +21,7 @@ for users with vision impairments.
 
 ## Description
 
-This repository contains our implementation for learning prescriptions related to refractive vision problems (myopia, presbyopia, astigmatism etc.).
+This repository contains our implementation for learning prescriptions related to refractive vision problems (myopia, hyperopia).
 
 Clone the entire repository and navigate to the root directory.
 
@@ -51,6 +51,13 @@ You can also adjust the parameters used in the optimization routine by passing a
 ```shell
 python3 main.py --help
 ```
+## Dataset 
+
+You can use images from both **Dataset** and **Dataset_D2K** for your experiments. 
+
+Dataset : Image datasets released by Computational Light Lab. at UCL. 
+
+Dataset_D2K : Image dataset shared by DIV2K image dataset. 
 
 ## Importing Display Backlight Data
 
@@ -76,7 +83,6 @@ inside .csv, format should be below (column1 : wavelength, column2 : spectrum da
   doi = {10.48550/ARXIV.2212.04264},  
   url = {https://arxiv.org/abs/2212.04264},  
   author = {Güzel, Ahmet and Beyazian, Jeanne and Chakravarthula, Praneeth and Akşit, Kaan},  
-  keywords = {Human-Computer Interaction (cs.HC), Graphics (cs.GR), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences, I.3.3; I.2.10},  
   title = {ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance},  
   publisher = {arXiv},  
   year = {2022},  
