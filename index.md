@@ -26,7 +26,8 @@
 
 
    <p align="center">
-    <a href="https://complightlab.com/">UCL Computational Light Laboratory*<sup>1</sup></a> |
+    <img width ="2%" src="https://user-images.githubusercontent.com/46696280/215226725-5fad80c7-c795-4054-8279-c9789ec59795.png"> 
+    <a href="https://complightlab.com/">UCL Computational Light Laboratory</a> 
    </p>
 
   
