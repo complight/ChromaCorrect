@@ -4,7 +4,7 @@
  
  <p align="center">
   <b>Authors</b><br>
-  <a href="https://aguzel.github.io/">Ahmet H. Güzel<sup>1</sup></a> |
+  <a href="https://aguzel.github.io/">Ahmet H. Güzel*<sup>1</sup></a> |
   <a href="https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk">Jeanne Beyazian<sup>2</sup></a> |
   <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula<sup>3</sup></a> |
   <a href="https://kaanaksit.com/">Kaan Akşit<sup>2</sup></a>
