@@ -19,14 +19,18 @@ for users with vision impairments.
 
 ## Paper 
 
-![image](https://user-images.githubusercontent.com/46696280/214981542-895e4d34-96d3-4eee-bb39-2c9979f94b8c.png)
 https://arxiv.org/abs/2212.04264
+
+![image](https://user-images.githubusercontent.com/46696280/214981542-895e4d34-96d3-4eee-bb39-2c9979f94b8c.png)
 
 ## Code 
 > Try ChromaCorrect
+> 
 [Code](https://github.com/complight/ChromaCorrect)
 
+## Video 
 
+https://user-images.githubusercontent.com/46696280/214981756-6444cff3-ebca-4d19-bdab-17326702a0b3.mp4
 
 ## Citation
 
