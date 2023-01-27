@@ -1,6 +1,6 @@
 
 
-<h2 align="center">ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance</h2>
+<h1 align="center">ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance</h1>
  <h3>
  <p align="center">
   <a href="https://aguzel.github.io/">Ahmet H. Güzel*<sup>1</sup></a> |
