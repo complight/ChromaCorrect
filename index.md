@@ -1,5 +1,4 @@
-# ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance
-### [Project Page](https://github.com/complight/ChromaCorrect) | [Video](https://youtu.be/fjexa7ga-tQ) | [Paper](https://arxiv.org/abs/2212.04264)
+[Video](https://youtu.be/fjexa7ga-tQ) | [Paper](https://arxiv.org/abs/2212.04264) / Code (https://github.com/complight/ChromaCorrect)
 
 [ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance](https://arxiv.org/abs/2212.04264)  
  [Ahmet H. Güzel](https://aguzel.github.io/)\*<sup>1</sup>,
@@ -19,58 +18,7 @@ eyeglasses in Virtual Reality (VR) headsets by shifting the optical complexity c
 we optimize the rendered imagery in the display using stochastic gradient-descent solvers. This way, we provide prescription glassesfree sharper images for a person with vision impairments. We evaluate our approach on various displays, including desktops and VR headsets, and show significant quality and contrast improvements
 for users with vision impairments.
 
-## Description
-
-This repository contains our implementation for learning prescriptions related to refractive vision problems (myopia, hyperopia).
-
-Clone the entire repository and navigate to the root directory.
-
-```shell
-git clone git@github.com:complight/ChromaCorrect.git
-```
-
-## Install the required dependencies
-
-`requirements.txt` can help you to install the required packages using `pip`:
-
-```shell
-pip3 install -r requirements.txt
-```
-
-## Running the code (performing optimization)
-
-Once you have the requirements successfully installed, you are ready to run the optimisation.
-
-```shell
-python3 main.py --device cuda --diopter -2.0 --filename dataset/parrot.png --directory sample --backlight read
-```
-
-You can also adjust the parameters used in the optimization routine by passing arguments. To learn more about parameters:
-
-```shell
-python3 main.py --help
-```
-## Dataset 
-
-You can use images from  **Dataset** for your experiments. 
-
-Images are selected from combination of [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), [CLL](https://complightlab.com/) and [Kodak](http://r0k.us/graphics/kodak/) datasets.
-
-## Importing Display Backlight Data
-
-File names have to be named exactly as below : 
-- red_spectrum.csv
-- green_spectrum.csv
-- blue_spectrum.csv
-
-inside .csv, format should be below (column1 : wavelength, column2 : spectrum data)
-
-    column1     column2
-    400         spectrum[0]
-    .
-    .
-    .
-    700         spectrum[i]
+https://youtu.be/fjexa7ga-tQ
 
 
 ## Citation
