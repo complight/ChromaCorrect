@@ -25,6 +25,9 @@
    </p>
 
 
+   <p align="center">
+    <a href="https://complightlab.com/">UCL Computational Light Laboratory*<sup>1</sup></a> |
+   </p>
 
   
 <h2>
