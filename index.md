@@ -29,8 +29,8 @@ https://arxiv.org/abs/2212.04264
 [Code](https://github.com/complight/ChromaCorrect)
 
 ## Video 
+[![ChromaCorrect](https://img.youtube.com/vi/fjexa7ga-tQ/0.jpg)](https://www.youtube.com/watch?v=fjexa7ga-tQ)
 
-https://user-images.githubusercontent.com/46696280/214981756-6444cff3-ebca-4d19-bdab-17326702a0b3.mp4
 
 ## Citation
 
