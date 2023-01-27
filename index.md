@@ -18,7 +18,7 @@
  <p align="center">
   <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
   <a href="https://github.com/complight/ChromaCorrect">Code</a> |
-  <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video<a>
+  <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video</a>
  <br><br>
   </p>
 
