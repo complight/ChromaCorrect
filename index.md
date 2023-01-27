@@ -65,11 +65,26 @@ for users with vision impairments.
 #### 1.a) Conventional Display 
 
 For every experimental image capture, we fixed the pose, ISO, and focus setting of the camera to ensure a consistent view with a nearsighted prescription of -1.50.
-![image](https://user-images.githubusercontent.com/46696280/214996949-e35725f4-5ad2-4237-ba68-e5f14f0d4797.png)
+
+<p align="center" width="100%">
+<img width="50%" src="https://user-images.githubusercontent.com/46696280/214996949-e35725f4-5ad2-4237-ba68-e5f14f0d4797.png">
+</p>
 
 #### 1.b) Virtual Reality Headset
 
 (A) We use a virtual reality headset and a camera to capture images from our virtual reality headset. To emulate a prescription problem in the visual system, we use a defocus lens. (B) We take pictures with fixed pose and camera focus from behind the defocus lens to evaluate reconstructed images.
+ 
+<p align="center" width="100%">
+<img width="50%" src="https://user-images.githubusercontent.com/46696280/214997797-adb2a5c7-7449-4ec1-b0b1-f9fef8581439.png">
+</p>
+
+#### 1.b) Results
+
+<p align="center" width="100%">
+<img width="60%" src="https://user-images.githubusercontent.com/46696280/214997968-09149daf-fea5-48b2-8546-737242fbea33.png">
+</p>
+
+ChromaCorrect improves the conventional approach by means of color and contrast. 
 
 ## Citation
 
