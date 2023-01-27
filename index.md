@@ -49,7 +49,7 @@ for users with vision impairments.
  </p>
  </h2>
 <p align="center" width="100%">
-    <img width="70%" src="https://user-images.githubusercontent.com/46696280/214984308-f67c3a9b-11f0-4d81-8f3f-4319fca1b266.png">
+    <img width="70%" src="https://user-images.githubusercontent.com/46696280/215001021-3bfde19c-eadf-49df-96ce-1b7ec51e0445.png">
 </p>
 
 
@@ -120,7 +120,7 @@ obvserved perceptually.
 We implement a semi-supervised deep learning model capable of reconstructing optimized  images from their original RGB versions. We use a U-Net architecture [40] for this purpose. Such a solution is more suitable than an iterative process for achieving real-time applications.
 
 <p align="center" width="100%">
-<img width="70%" src="https://user-images.githubusercontent.com/46696280/215000422-fb8e8cf4-ad3e-42fe-b163-53f2f1cd9b69.png">
+<img width="40%" src="https://user-images.githubusercontent.com/46696280/215000422-fb8e8cf4-ad3e-42fe-b163-53f2f1cd9b69.png">
 </p>
 The learned model significantly reduces image generation time, with an average of 2.9 milliseconds per corrected image compared to the original method’s 8.127
 seconds, a speed increase of approximately 2800 times
