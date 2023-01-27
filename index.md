@@ -19,9 +19,11 @@ for users with vision impairments.
 
 ## Paper 
 
-https://arxiv.org/abs/2212.04264
+[![image](https://user-images.githubusercontent.com/46696280/214981542-895e4d34-96d3-4eee-bb39-2c9979f94b8c.png)](https://arxiv.org/abs/2212.04264)
 
-![image](https://user-images.githubusercontent.com/46696280/214981542-895e4d34-96d3-4eee-bb39-2c9979f94b8c.png)
+**ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance**
+
+Ahmet Güzel, Jeanne Beyazian, Praneeth Chakravarthula, Kaan Akşit
 
 ## Code 
 > Try ChromaCorrect
