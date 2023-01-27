@@ -5,23 +5,21 @@
  <p align="center">
   <b>Authors</b><br>
   <a href="https://aguzel.github.io/">Ahmet H. Güzel<sup>1</sup></a> |
-  <a href="#">Jeanne Beyazian<sup>2</sup></a> |
-  <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula<sup>3</sup></a>
+  <a href="https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk">Jeanne Beyazian<sup>2</sup></a> |
+  <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula<sup>3</sup></a> |
   <a href="https://kaanaksit.com/">Kaan Akşit<sup>2</sup></a>
   <br><br>
   <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
+ </p>
  
-</p>
-  <h2> 
+ <h2> 
    <p align="center">
      <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
      <a href="https://github.com/complight/ChromaCorrect">Code</a> |
      <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video<a>
    </p>
 </h2>
- 
- 
- 
+  
 
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png">
@@ -39,7 +37,6 @@ for users with vision impairments.
 <p align="center" width="100%">
     <img width="70%" src="https://user-images.githubusercontent.com/46696280/214984308-f67c3a9b-11f0-4d81-8f3f-4319fca1b266.png">
 </p>
-
 
 
 ### 1
