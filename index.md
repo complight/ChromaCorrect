@@ -23,18 +23,22 @@
   <img src="https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png">
  </p> 
  
-
-
-   
-## Abstract
+ <h2>
+ <p align="center">
+    Abstract
+ </p>
+ </h2>
    
 A large portion of today’s world population suffer from vision impairments and wear prescription eyeglasses. However, eyeglasses causes additional bulk and discomfort when used with augmented and virtual reality headsets, thereby negatively impacting the viewer’s visual experience. In this work, we remedy the usage of prescription
 eyeglasses in Virtual Reality (VR) headsets by shifting the optical complexity completely into software and propose a prescriptionaware rendering approach for providing sharper and immersive VR imagery. To this end, we develop a differentiable display and visual perception model encapsulating display-specific parameters, color and visual acuity of human visual system and the user-specific refractive errors. Using this differentiable visual perception model,
 we optimize the rendered imagery in the display using stochastic gradient-descent solvers. This way, we provide prescription glassesfree sharper images for a person with vision impairments. We evaluate our approach on various displays, including desktops and VR headsets, and show significant quality and contrast improvements
 for users with vision impairments. 
 
-
-## Our Optimization Pipeline 
+ <h2>
+ <p align="center">
+    Optimization Pipeline
+ </p>
+ </h2>
 <p align="center" width="100%">
     <img width="70%" src="https://user-images.githubusercontent.com/46696280/214984308-f67c3a9b-11f0-4d81-8f3f-4319fca1b266.png">
 </p>
@@ -50,8 +54,22 @@ for users with vision impairments.
 
  **5** ) Our loss function penalizes the simulated image derived from the perceptually guided model against a target image in LMS space. Finally, our differentiable optimization pipeline identifies proper input RGB images using a Stochastic Gradient Descent solver.
 
+ <h2>
+ <p align="center">
+    Evaluation
+ </p>
+ </h2>  
 
+### 1) Hardware Setup
 
+#### 1.a) Conventional Display 
+
+For every experimental image capture, we fixed the pose, ISO, and focus setting of the camera to ensure a consistent view with a nearsighted prescription of -1.50.
+![image](https://user-images.githubusercontent.com/46696280/214996949-e35725f4-5ad2-4237-ba68-e5f14f0d4797.png)
+
+#### 1.b) Virtual Reality Headset
+
+(A) We use a virtual reality headset and a camera to capture images from our virtual reality headset. To emulate a prescription problem in the visual system, we use a defocus lens. (B) We take pictures with fixed pose and camera focus from behind the defocus lens to evaluate reconstructed images.
 
 ## Citation
 
