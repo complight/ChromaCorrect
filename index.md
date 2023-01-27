@@ -3,22 +3,18 @@
 <h2 align="center">ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance</h2>
  
  <p align="center">
-  <b></b><br>
   <a href="https://aguzel.github.io/">Ahmet H. Güzel*<sup>1</sup></a> |
   <a href="https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk">Jeanne Beyazian<sup>2</sup></a> |
   <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula<sup>3</sup></a> |
   <a href="https://kaanaksit.com/">Kaan Akşit<sup>2</sup></a>
-  <br><br>
+  </p>
+  <p align="center">
   <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
- </p>
- 
- 
+ </p> 
  <p align="center">
-   <b></b><br>
   <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
   <a href="https://github.com/complight/ChromaCorrect">Code</a> |
   <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video<a>
-  <br><br>
  </p>
 
   
