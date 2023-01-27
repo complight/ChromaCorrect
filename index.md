@@ -95,8 +95,37 @@ For every experimental image capture, we fixed the pose, ISO, and focus setting 
 
 ChromaCorrect improves the conventional approach by means of color and contrast. 
 
-## Citation
 
+### 2) Simulated 
+
+In the second part, we evaluated our method with different prescriptions to model various refractive eye problems. Thus, all the images used in this part are evaluated in simulated LMS space.
+
+#### 2.a) Results
+
+<p align="center" width="100%">
+<img width="70%" src="https://user-images.githubusercontent.com/46696280/215000048-ede10d3a-f1e8-4add-bebc-1d3bda72f2a7.png">
+</p>
+Here we compare outputs from five different refractive vision problems (myopia, hyperopia, hyperopic astigmatism, myopic astigmatism, and myopia with
+hyperopic astigmatism) for five sample input images. We provide simulated LMS space representations of target image, conventional method output, and our method. FLIP
+per-pixel difference along with it’s mean value (lower is better), SSIM and PSNR are provided to compare performance of methods. Our method shows better loss numbers
+for each image quailty metrics for each experiment in simulated LMS space. The contrast improvement by using our method against conventional method also can be
+obvserved perceptually.
+
+ <h2>
+ <p align="center">
+    Learned Model (Neural ChromaCorrect)
+ </p>
+ </h2>  
+ 
+We implement a semi-supervised deep learning model capable of reconstructing optimized  images from their original RGB versions. We use a U-Net architecture [40] for this purpose. Such a solution is more suitable than an iterative process for achieving real-time applications.
+
+<p align="center" width="100%">
+<img width="70%" src="https://user-images.githubusercontent.com/46696280/215000422-fb8e8cf4-ad3e-42fe-b163-53f2f1cd9b69.png">
+</p>
+The learned model significantly reduces image generation time, with an average of 2.9 milliseconds per corrected image compared to the original method’s 8.127
+seconds, a speed increase of approximately 2800 times
+
+## Citation
 ```
 @article{https://doi.org/10.48550/arxiv.2212.04264,
   doi = {10.48550/ARXIV.2212.04264},  
