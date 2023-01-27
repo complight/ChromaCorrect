@@ -7,10 +7,12 @@
  
  <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
 
+<p align="center" width="100%">
 [Paper](https://arxiv.org/abs/2212.04264)  |  [Code](https://github.com/complight/ChromaCorrect) | [Video](https://www.youtube.com/watch?v=fjexa7ga-tQ)
-
-![image](https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png)
-
+</p>
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png">
+</p>
 
 ## Abstract
 
@@ -21,8 +23,11 @@ for users with vision impairments.
 
 
 ## Our Optimization Pipeline 
+<p align="center" width="100%">
+    <img width="70%" src="https://user-images.githubusercontent.com/46696280/214984308-f67c3a9b-11f0-4d81-8f3f-4319fca1b266.png">
+</p>
 
-![image](https://user-images.githubusercontent.com/46696280/214984308-f67c3a9b-11f0-4d81-8f3f-4319fca1b266.png)
+
 
 ### 1
 A screen with color primaries (RGB) displays an input image.
@@ -38,6 +43,9 @@ Our optimization pipeline relies on the perceptually guided model described in p
 
 ### 5
 Our loss function penalizes the simulated image derived from the perceptually guided model against a target image in LMS space. Finally, our differentiable optimization pipeline identifies proper input RGB images using a Stochastic Gradient Descent solver.
+
+
+
 
 ## Citation
 
