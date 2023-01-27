@@ -1,6 +1,16 @@
 
 
 <h1 align="center">ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance</h1>
+
+ <p align="center">
+  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999103-a8a33456-b66c-4cb4-8102-578379a7e2c9.png">
+  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999398-0ed2f644-4983-4841-af23-b1d7221fc34d.png">
+  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999444-b96281cd-9158-416f-a6da-f82169780886.png">
+  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999478-ea45353d-3704-4290-8e90-10c747887253.png">
+ </p>
+
+
+
  <h3>
   <p align="center">
     <a href="https://aguzel.github.io/">Ahmet H. Güzel*<sup>1</sup></a> |
@@ -14,12 +24,7 @@
     <strong><sup>1</sup>University of Leeds,  <sup>3</sup>Princeton University,  <sup>2</sup>University College London </strong>
    </p>
 
- <p align="center">
-  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999103-a8a33456-b66c-4cb4-8102-578379a7e2c9.png">
-  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999398-0ed2f644-4983-4841-af23-b1d7221fc34d.png">
-  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999444-b96281cd-9158-416f-a6da-f82169780886.png">
-  <img width ="10%" src="https://user-images.githubusercontent.com/46696280/214999478-ea45353d-3704-4290-8e90-10c747887253.png">
- </p>
+
 
   
 <h2>
