@@ -29,7 +29,7 @@ https://arxiv.org/abs/2212.04264
 [Code](https://github.com/complight/ChromaCorrect)
 
 ## Video 
-[![ChromaCorrect](https://img.youtube.com/vi/fjexa7ga-tQ/0.jpg)](https://www.youtube.com/watch?v=fjexa7ga-tQ)
+[![ChromaCorrect](https://img.youtube.com/vi/fjexa7ga-tQ/1.jpg)](https://www.youtube.com/watch?v=fjexa7ga-tQ)
 
 
 ## Citation
