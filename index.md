@@ -6,8 +6,9 @@
  [Kaan Akşit](https://kaanaksit.com/)<sup>2</sup>,
  
  <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
- 
- ![image](https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png)
+
+https://user-images.githubusercontent.com/46696280/214982974-af274250-c046-43bb-b737-00aee6e34f84.mp4
+![image](https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png)
 
  
 ## Abstract
