@@ -10,6 +10,10 @@
   </p>
   <p align="center">
   <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
+  <br><br>
+  <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
+  <a href="https://github.com/complight/ChromaCorrect">Code</a> |
+  <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video<a>
  </p> 
 <!--  <p align="center">
   <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
