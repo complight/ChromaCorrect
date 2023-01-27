@@ -7,20 +7,23 @@
   <a href="https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk">Jeanne Beyazian<sup>2</sup></a> |
   <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula<sup>3</sup></a> |
   <a href="https://kaanaksit.com/">Kaan Akşit<sup>2</sup></a>
-  </p>
-  <p align="center">
-  <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
- <br><br>
+  <br><br>
+    <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
+  </p> 
+  
+<h2>
+ <p align="center">
+   <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
+   <a href="https://github.com/complight/ChromaCorrect">Code</a> |
+   <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video</a>
+ </p>
+</h2>
+  
+ <p align="center">
   <img src="https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png">
- <br><br>
  </p> 
  
- <p align="center">
-  <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
-  <a href="https://github.com/complight/ChromaCorrect">Code</a> |
-  <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video</a>
- <br><br>
-  </p>
+
 
    
 ## Abstract
