@@ -39,20 +39,15 @@ for users with vision impairments.
 </p>
 
 
-### 1
-A screen with color primaries (RGB) displays an input image.
+ **1** ) A screen with color primaries (RGB) displays an input image.
 
-### 2
-A viewer’s eye images the displayed image onto the retina with a unique Point Spread Function (PSF) describing the optical aberrations of that person’s eye.
+ **2** ) A viewer’s eye images the displayed image onto the retina with a unique Point Spread Function (PSF) describing the optical aberrations of that person’s eye.
 
-### 3
-Retinal cells convert the aberrated RGB image to a trichromat sensation, also known as Long-Medium-Short (LMS) cone perception
+ **3** ) Retinal cells convert the aberrated RGB image to a trichromat sensation, also known as Long-Medium-Short (LMS) cone perception
 
-### 4
-Our optimization pipeline relies on the perceptually guided model described in previous steps (1-3). Thus, the optimization pipeline converts a given RGB image to LMS space at each optimization step while accounting for the PSFs of a viewer modelled using Zernike polynomials.
+ **4** ) Our optimization pipeline relies on the perceptually guided model described in previous steps (1-3). Thus, the optimization pipeline converts a given RGB image to LMS space at each optimization step while accounting for the PSFs of a viewer modelled using Zernike polynomials.
 
-### 5
-Our loss function penalizes the simulated image derived from the perceptually guided model against a target image in LMS space. Finally, our differentiable optimization pipeline identifies proper input RGB images using a Stochastic Gradient Descent solver.
+ **5** ) Our loss function penalizes the simulated image derived from the perceptually guided model against a target image in LMS space. Finally, our differentiable optimization pipeline identifies proper input RGB images using a Stochastic Gradient Descent solver.
 
 
 
