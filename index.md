@@ -10,13 +10,16 @@
   </p>
   <p align="center">
   <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
+ <br><br>
+  <img src="https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png">
+ <br><br>
  </p> 
 <!--  <p align="center">
   <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
   <a href="https://github.com/complight/ChromaCorrect">Code</a> |
   <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video<a>
  <br><br>
- <img src="https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png">
+
   <br><br>
   </p>
     -->
