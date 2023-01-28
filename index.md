@@ -128,7 +128,7 @@ obvserved perceptually.
  </p>
  </h2>  
  
-We implement a semi-supervised deep learning model capable of reconstructing optimized  images from their original RGB versions. We use a U-Net architecture [40] for this purpose. Such a solution is more suitable than an iterative process for achieving real-time applications.
+We implement a semi-supervised deep learning model capable of reconstructing optimized  images from their original RGB versions. We use a U-Net architecture for this purpose. Such a solution is more suitable than an iterative process for achieving real-time applications.
 
 <p align="center" width="100%">
 <img width="70%" src="https://user-images.githubusercontent.com/46696280/215232635-fbfb050b-5f21-45e2-8a72-c7647b627bf4.png">
