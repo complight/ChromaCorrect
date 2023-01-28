@@ -19,7 +19,8 @@
     <a href="https://kaanaksit.com/">Kaan Akşit<sup>2</sup></a>
    </p>
  </h4>
-   </h4>
+ 
+   <h4>
    <p align="center">
     <strong><sup>1</sup>University of Leeds,  <sup>3</sup>Princeton University,  <sup>2</sup>University College London </strong>
    </p>
