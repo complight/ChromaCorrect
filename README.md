@@ -1,7 +1,6 @@
 # ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance
 ### [Project Page](https://github.com/complight/ChromaCorrect) | [Video](https://youtu.be/fjexa7ga-tQ) | [Paper](https://arxiv.org/abs/2212.04264)
 
-ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance
 
  [Ahmet H. Güzel](https://aguzel.github.io/)\*<sup>1</sup>,
  [Jeanne Beyazian](https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk/)<sup>2</sup>,
