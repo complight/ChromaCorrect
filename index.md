@@ -137,7 +137,7 @@ The learned model significantly reduces image generation time, with an average o
 seconds, a speed increase of approximately 2800 times
 
 ## Citation
-```
+```bibtex
 @article{https://doi.org/10.48550/arxiv.2212.04264,
   doi = {10.48550/ARXIV.2212.04264},  
   url = {https://arxiv.org/abs/2212.04264},  
