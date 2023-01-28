@@ -60,7 +60,7 @@ for users with vision impairments.
  </p>
  </h2>
 <p align="center" width="100%">
-    <img width="70%" src="https://user-images.githubusercontent.com/46696280/215232762-11e239a9-f5fd-4d67-8ea6-da5e0adbb842.png"
+    <img width="70%" src="https://user-images.githubusercontent.com/46696280/215232829-be28bf3c-48fa-4f33-9eb0-423f66dd496e.png"
 </p>
 
 
@@ -114,7 +114,7 @@ In the second part, we evaluated our method with different prescriptions to mode
 #### 2.a) Results
 
 <p align="center" width="100%">
-<img width="70%" src="https://user-images.githubusercontent.com/46696280/215000048-ede10d3a-f1e8-4add-bebc-1d3bda72f2a7.png">
+<img width="70%" src="https://user-images.githubusercontent.com/46696280/215232949-73da2d76-50fa-4eac-8113-a88feafcbd22.png"
 </p>
 Here we compare outputs from five different refractive vision problems (myopia, hyperopia, hyperopic astigmatism, myopic astigmatism, and myopia with
 hyperopic astigmatism) for five sample input images. We provide simulated LMS space representations of target image, conventional method output, and our method. FLIP
