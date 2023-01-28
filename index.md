@@ -60,7 +60,7 @@ for users with vision impairments.
  </p>
  </h2>
 <p align="center" width="100%">
-    <img width="70%" src="https://user-images.githubusercontent.com/46696280/215232829-be28bf3c-48fa-4f33-9eb0-423f66dd496e.png"
+    <img width="70%" src="https://user-images.githubusercontent.com/46696280/215232829-be28bf3c-48fa-4f33-9eb0-423f66dd496e.png">
 </p>
 
 
