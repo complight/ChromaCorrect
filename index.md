@@ -43,7 +43,7 @@
 
 <h4>
  <p align="center">
-   <a href="https://arxiv.org/abs/2212.04264/](https://opg.optica.org/boe/home.cfm">Optics Express 2023</a> 
+   <a href="https://opg.optica.org/boe/home.cfm">Optics Express 2023</a> 
  </p>
 </h4>
 
