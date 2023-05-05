@@ -76,14 +76,19 @@ inside .csv, format should be below (column1 : wavelength, column2 : spectrum da
 ## Citation
 
 ```
-@article{https://doi.org/10.48550/arxiv.2212.04264,
-  doi = {10.48550/ARXIV.2212.04264},  
-  url = {https://arxiv.org/abs/2212.04264},  
-  author = {Güzel, Ahmet and Beyazian, Jeanne and Chakravarthula, Praneeth and Akşit, Kaan},  
-  title = {ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance},  
-  publisher = {arXiv},  
-  year = {2022},  
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+@article{Guzel:23,
+author = {Ahmet H. G\"{u}zel and Jeanne Beyazian and Praneeth Chakravarthula and Kaan Akșit},
+journal = {Biomed. Opt. Express},
+keywords = {Holographic displays; Image metrics; Image quality; Vision modeling; Visual acuity; Visual system},
+number = {5},
+pages = {2166--2180},
+publisher = {Optica Publishing Group},
+title = {ChromaCorrect: prescription correction in virtual reality headsets through perceptual guidance},
+volume = {14},
+month = {May},
+year = {2023},
+url = {https://opg.optica.org/boe/abstract.cfm?URI=boe-14-5-2166},
+doi = {10.1364/BOE.485776},
 }
 
 ```
