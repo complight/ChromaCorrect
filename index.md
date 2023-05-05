@@ -16,13 +16,13 @@
     <a href="https://aguzel.github.io/">Ahmet H. Güzel*<sup>1</sup></a> |
     <a href="https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk">Jeanne Beyazian<sup>2</sup></a> |
     <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula<sup>3</sup></a> |
-    <a href="https://kaanaksit.com/">Kaan Akşit<sup>2</sup></a>
+    <a href="https://kaanaksit.com/">Kaan Akşit*<sup>2</sup></a>
    </p>
  </h4>
  
    <h4>
    <p align="center">
-    <strong><sup>1</sup>University of Leeds,  <sup>3</sup>Princeton University,  <sup>2</sup>University College London </strong>
+    <strong><sup>1</sup>University of Leeds,  <sup>3</sup>Princeton University,  <sup>2</sup>University College London, <sup>*</sup>Corresponding Authors </strong>
    </p>
   </h4>
 
@@ -35,7 +35,7 @@
   
 <h2>
  <p align="center">
-   <a href="https://arxiv.org/abs/2212.04264/">Paper</a> |
+   <a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-14-5-2166&id=529310">Paper</a> |
    <a href="https://github.com/complight/ChromaCorrect">Code</a> |
    <a href="https://www.youtube.com/watch?v=fjexa7ga-tQ">Video</a>
  </p>
@@ -43,7 +43,7 @@
 
 <h3>
  <p align="center">
-   <a> Optics Express 2023 </a> 
+   <a href ="https://opg.optica.org/boe/fulltext.cfm?uri=boe-14-5-2166&id=529310"> Biomedical Optics Express 2023 </a> 
  </p>
 </h3>
 
@@ -147,14 +147,19 @@ seconds, a speed increase of approximately 2800 times
 
 ## Citation
 ```bibtex
-@article{https://doi.org/10.48550/arxiv.2212.04264,
-  doi = {10.48550/ARXIV.2212.04264},  
-  url = {https://arxiv.org/abs/2212.04264},  
-  author = {Güzel, Ahmet and Beyazian, Jeanne and Chakravarthula, Praneeth and Akşit, Kaan},  
-  title = {ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance},  
-  publisher = {arXiv},  
-  year = {2022},  
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+@article{Guzel:23,
+author = {Ahmet H. G\"{u}zel and Jeanne Beyazian and Praneeth Chakravarthula and Kaan Akșit},
+journal = {Biomed. Opt. Express},
+keywords = {Holographic displays; Image metrics; Image quality; Vision modeling; Visual acuity; Visual system},
+number = {5},
+pages = {2166--2180},
+publisher = {Optica Publishing Group},
+title = {ChromaCorrect: prescription correction in virtual reality headsets through perceptual guidance},
+volume = {14},
+month = {May},
+year = {2023},
+url = {https://opg.optica.org/boe/abstract.cfm?URI=boe-14-5-2166},
+doi = {10.1364/BOE.485776},
 }
 
 ```
