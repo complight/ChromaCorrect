@@ -5,7 +5,7 @@
  [Ahmet H. Güzel](https://aguzel.github.io/)\*<sup>1</sup>,
  [Jeanne Beyazian](https://www.linkedin.com/in/jeanne-beyazian/?trk=public_profile_browsemap&originalSubdomain=uk/)<sup>2</sup>,
  [Praneeth Chakravarthula](https://www.cs.unc.edu/~cpk/)<sup>3</sup>,
- [Kaan Akşit](https://kaanaksit.com/)<sup>2</sup>,
+ [Kaan Akşit](https://kaanaksit.com/)*<sup>2</sup>,
  
  <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London, <sup>*</sup>Corresponding Authors
  
