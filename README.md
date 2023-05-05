@@ -1,5 +1,5 @@
 # ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance
-### [Project Page](http://complightlab.com/ChromaCorrect/) | [Video](https://youtu.be/fjexa7ga-tQ) | [Paper](https://arxiv.org/abs/2212.04264)
+### [Project Page](http://complightlab.com/ChromaCorrect/) | [Video](https://youtu.be/fjexa7ga-tQ) | [Paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-14-5-2166&id=529310)
 
 
  [Ahmet H. Güzel](https://aguzel.github.io/)\*<sup>1</sup>,
@@ -7,7 +7,7 @@
  [Praneeth Chakravarthula](https://www.cs.unc.edu/~cpk/)<sup>3</sup>,
  [Kaan Akşit](https://kaanaksit.com/)<sup>2</sup>,
  
- <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London
+ <sup>1</sup>University of Leeds, <sup>3</sup>Princeton University, <sup>2</sup>University College London, <sup>*</sup>Corresponding Authors
  
  ![image](https://user-images.githubusercontent.com/46696280/214193337-b6f80d66-bfa4-4025-b63e-0400a0b50969.png)
 
@@ -75,7 +75,7 @@ inside .csv, format should be below (column1 : wavelength, column2 : spectrum da
 
 ## Citation
 
-```
+```bibtex
 @article{Guzel:23,
 author = {Ahmet H. G\"{u}zel and Jeanne Beyazian and Praneeth Chakravarthula and Kaan Akșit},
 journal = {Biomed. Opt. Express},
