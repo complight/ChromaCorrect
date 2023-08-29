@@ -147,19 +147,16 @@ seconds, a speed increase of approximately 2800 times
 
 ## Citation
 ```bibtex
-@article{Guzel:23,
-author = {Ahmet H. G\"{u}zel and Jeanne Beyazian and Praneeth Chakravarthula and Kaan Akșit},
-journal = {Biomed. Opt. Express},
-keywords = {Holographic displays; Image metrics; Image quality; Vision modeling; Visual acuity; Visual system},
-number = {5},
-pages = {2166--2180},
-publisher = {Optica Publishing Group},
-title = {ChromaCorrect: prescription correction in virtual reality headsets through perceptual guidance},
-volume = {14},
-month = {May},
-year = {2023},
-url = {https://opg.optica.org/boe/abstract.cfm?URI=boe-14-5-2166},
-doi = {10.1364/BOE.485776},
+@article{guzel2023prescription,
+  title = {ChromaCorrect: Prescription Correction in Virtual Reality Headsets through Perceptual Guidance},
+  author = {Güzel, Ahmet and Beyazian, Jeanne and Chakravarthula, Praneeth and Akşit, Kaan},
+  journal = {Biomedical Optics Express},
+  volume = {2166-2180},
+  month = apr,
+  year = {2023},
+  language = {en},
+  video = {https://www.youtube.com/watch?v=fjexa7ga-tQ}, 
+  note = {\textbf{\textcolor{red}{Invited to Optica's Color and Data blast 2023}}},
+  doi = {https://doi.org/10.1364/BOE.485776},
 }
-
 ```
